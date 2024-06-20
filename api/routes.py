@@ -27,7 +27,7 @@ def give_recommendations(index_value, data=anime):
     return result
 
 
-app = Blueprint('anime', __name__)
+anime_bp = Blueprint('anime_bp', __name__)
 
 
 @app.route('/recommend', methods=['GET'])
