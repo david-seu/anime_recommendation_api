@@ -99,6 +99,7 @@ gensim @ file:///C:/ci_311/gensim_1677743037820/work
 glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
 gmpy2 @ file:///C:/ci_311/gmpy2_1677743390134/work
 greenlet @ file:///C:/b/abs_a6c75ie0bc/croot/greenlet_1702060012174/work
+gunicorn==22.0.0
 h11==0.14.0
 h5py @ file:///C:/b/abs_17fav01gwy/croot/h5py_1691589733413/work
 HeapDict @ file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work
