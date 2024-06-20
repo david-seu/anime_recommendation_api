@@ -30,7 +30,7 @@ def give_recommendations(index_value, data=anime):
 anime_bp = Blueprint('anime_bp', __name__)
 
 
-@app.route('/recommend', methods=['GET'])
+@anime_bp.route('/recommend', methods=['GET'])
 def recommend():
     title = request.args.get('title')
     if title is None:
