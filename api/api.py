@@ -4,8 +4,8 @@ import numpy as np
 import faiss
 
 # Load your data
-df = pd.read_json('../similarity.json').astype('float32')
-anime = pd.read_json('../data/anime-database.json')  # Assuming you have a separate JSON for anime metadata
+df = pd.read_json('./similarity.json').astype('float32')
+anime = pd.read_json('./anime-database.json')  # Assuming you have a separate JSON for anime metadata
 
 # Ensure the array is C-contiguous
 data_array = np.ascontiguousarray(df.values)
