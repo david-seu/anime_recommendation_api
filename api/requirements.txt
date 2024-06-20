@@ -3,4 +3,4 @@ Flask==2.2.2
 numpy==1.24.4
 pandas==2.0.3
 gunicorn==22.0.0
-Werkzeug==2.1.2
+Werkzeug==3.0.3
